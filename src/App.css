@@ -1,0 +1,75 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comic-div{
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.image{
+  max-width: 400px;
+  height: auto;
+}
+
+.date-div{
+  display: flex;
+  flex-direction: row;
+}
+.date-div h2{
+  margin: 10px;
+}
+
+.fixed-bottom{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  color: white;
+  justify-content: space-evenly;
+}
+.controls-div{
+  background-color: lightblue;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.app-controls{
+  font-size: 40px;
+  padding: 10px;
+  color: white;
+}
+
+.app-controls:hover{
+  background-color: white;
+  color: lightblue;
+  cursor: pointer;
+}
+
+.app-controls-disabled{
+  font-size: 40px;
+  padding: 10px;
+  color: gray;
+}
+
+.loading-spinner{
+  font-size: 100px;
+  margin-top: 20%;
+}
+
+
